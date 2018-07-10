@@ -14,3 +14,12 @@
                                         export PATH
                                         * Note: you have to logout then login again for the
                                         changes to be available.
+
+
+3- use wildcards with cp, mv, rm,...    => Examples:
+                                        cp *.txt ../    =>  copy all .txt files to the parent directory
+                                        mv *.txt ~/     =>  move all .txt files to $HOME directory
+                                        rm f*.txt       =>  remove all files with names started with 'f' and ends with '.txt'
+
+4- !! <command>  => repeat last command you wrote.
+                    Common use: 'sudo !!' to execute the last command but with 'sudo'
