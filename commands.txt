@@ -22,9 +22,17 @@ popd  <directory>   =>  pop directory:  to pop a directory from stack (memory)
 touch <fileName1 fileName2 ...> =>  create a file(s) with a name(s)
                                     or to change the updating time of a current file
 
-rm <file>  =>  remove file
+rm <file>   =>  remove file
             -r  recursively (like removing a directory with all of its contents)
 
 mv <file1 file2>    =>  move a file into another path/directory
                         or rename a file from 'file1' to 'file2'
                         or both
+
+echo "bla bla bla"  =>  prints 'bla bla bla'
+                    > file  =>  writes 'bla bla bla' to the file
+                    >> file =>  appends 'bla bla bla' to the file
+
+cat random.txt randome2.txt          => read 2 files using 'cat' program
+cat random.txt randome2.txt | less   => read 2 files using 'cat' and open
+                                        the result using 'less'
