@@ -1,0 +1,7 @@
+#!/bin/bash
+
+HELLO="Hello World"
+echo 1 $HELLO
+echo 2 $HELLO
+echo 3 $HELLO
+

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+MYNUM=100
+
+if [ $MYNUM -eq 200 ]
+then
+	echo $MYNUM equal to 200
+else
+	echo "$MYNUM not equal to 200"
+fi

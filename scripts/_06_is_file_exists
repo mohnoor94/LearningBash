@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# if directory ./myfolder exists
+# -d means directory
+# -f means file
+# ~/ means home dir
+# ./ means here
+
+if [ -d ./myfolder ]
+then
+	echo "The folder exists"
+else
+	echo "The folder does not exists"
+fi
+
+echo "==================="
+
+if [ -f ./myfile ]
+then
+	echo "The file exists, I will remove it"
+	rm myfile
+else
+	echo "The file does not exists, I will create it"
+	touch myfile
+fi

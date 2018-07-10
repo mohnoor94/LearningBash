@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Please enter your name:"
+read username
+echo "You entered: $username. WOW! =P"
