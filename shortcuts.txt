@@ -1,4 +1,4 @@
 alt + ctrl + F1-F6      =>  open tty1 - tty6
 alt + ctrl + F7 or F7   =>  open Desktop tty1
 
-ctrl + l                => clear terminal
+ctrl + l                =>  clear terminal
