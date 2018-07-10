@@ -3,6 +3,10 @@ pwd => present/print working directory
 ls  => list storage
     -a  =>  show hidden files
     -l  =>  show details about files
+    > file  =>  forward the output to the file (can be used with any command)
+    >> file =>  append the output to the file 
+    2> file =>  forward only standard air to the file (System errors)
+    1> file =>  forward only standard output to the file
 
 cd  => change directory
         =>  home directory

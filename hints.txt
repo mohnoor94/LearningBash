@@ -1,0 +1,16 @@
+1- echo $PATH  =>   prints all paths that your system will look for any script you excecute
+                    if you save your scripts to any of these paths, you can run your script
+                    from anywhere in your system.
+                    This way; no need for (./) before the name of the script.
+                    Common paths to save your scripts are:  /usr/local/bin  (all users scripts)
+                                                            /usr/local/sbin (system admin scripts)
+
+
+2- create a file '~/.bash_profile'  =>  Add any thing to your $PATH there, and every time
+                                        you logged in to your system; this will be executed
+                                        and be available for you.
+                                        Example of '~/.bash_profile' contents could be:
+                                        PATH=$PATH:$HOME/bin
+                                        export PATH
+                                        * Note: you have to logout thin login again for the
+                                        changes to be available.
