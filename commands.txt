@@ -29,6 +29,8 @@ mv <file1 file2>    =>  move a file into another path/directory
                         or rename a file from 'file1' to 'file2'
                         or both
 
+cp <file1 file2>    =>  copy a file (to same or other diectory)
+
 echo "bla bla bla"  =>  prints 'bla bla bla'
                     > file  =>  writes 'bla bla bla' to the file
                     >> file =>  appends 'bla bla bla' to the file
@@ -36,3 +38,8 @@ echo "bla bla bla"  =>  prints 'bla bla bla'
 cat random.txt randome2.txt          => read 2 files using 'cat' program
 cat random.txt randome2.txt | less   => read 2 files using 'cat' and open
                                         the result using 'less'
+
+sudo    => super user do. To execute any command as a super user (admin/root).
+        -s  =>  emulating the 'root' user.
+                To execute any command without typing 'sudo' at first.
+                You should execute 'exit' command to leave the 'root' user.
