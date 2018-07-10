@@ -12,5 +12,5 @@
                                         Example of '~/.bash_profile' contents could be:
                                         PATH=$PATH:$HOME/bin
                                         export PATH
-                                        * Note: you have to logout thin login again for the
+                                        * Note: you have to logout then login again for the
                                         changes to be available.
