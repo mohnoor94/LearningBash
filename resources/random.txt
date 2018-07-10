@@ -1,0 +1,4 @@
+this is a random
+multi-line text file
+to be used to illustrate
+some examples.

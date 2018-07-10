@@ -1,0 +1,9 @@
+#!/bin/bash
+
+let count=1
+cat ../resources/random.txt |while read line
+do
+    echo "line $count: $line"
+    let count+=1
+    sleep 0.5
+done

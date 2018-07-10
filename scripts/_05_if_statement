@@ -2,6 +2,13 @@
 
 MYNUM=100
 
+# eq: equal
+# ne: not equal
+# lt: less than
+# le: less than or equal
+# gt: greater than
+# ge: greater than or equal
+
 if [ $MYNUM -eq 200 ]
 then
 	echo $MYNUM equal to 200

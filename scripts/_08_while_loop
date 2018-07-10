@@ -1,10 +1,27 @@
 #!/bin/bash
 
-myvar=1
+# x=1
+let x=1
 
-while [ $myvar -le 10 ]
+while [ $x -le 10 ]
 do
-    echo $myvar
-    myvar=$(( $myvar + 1 ))
-    sleep 0.5
+    # x=$(( $x + 1 ))
+    let x+=1
+    if [ $((x%2)) -eq 0 ]   # id x is even
+    then
+        # break
+        continue
+    fi
+    echo $x
+    sleep 0.2    # or sleep .2
 done
+
+echo "Done"
+
+# Note:
+    #   - while [ 1 ]
+    #   - while [ True ]
+    #   - while [ true ]
+    #   - while ;
+    # all above means while true (infinite loop?)
+
