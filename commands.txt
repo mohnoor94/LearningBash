@@ -1,0 +1,26 @@
+pwd => present/print working directory
+
+ls  => list storage
+    -a  =>  show hidden files
+    -l  =>  show details about files
+
+cd  => change directory
+        =>  home directory
+    ~   =>  home directory
+    /   =>  root directory
+
+mkdir <name>    =>  make directory
+rmdir <name>    =>  remove directory
+
+pushd <directory>   =>  push directory: to push a directory into stack (memory)
+popd  <directory>   =>  pop directory:  to pop a directory from stack (memory)
+
+touch <fileName1 fileName2 ...> =>  create a file(s) with a name(s)
+                                    or to change the updating time of a current file
+
+rm <file>  =>  remove file
+            -r  recursively (like removing a directory with all of its contents)
+
+mv <file1 file2>    =>  move a file into another path/directory
+                        or rename a file from 'file1' to 'file2'
+                        or both
