@@ -62,3 +62,33 @@ chmod <permissions> <file>  =>   change mod (setting bits)
 chown <group:user> <file>   =>  change owner
                                 - example:
                                 sudo chown abukhleif:abukhleif root.txt
+
+man <app>   =>  manual help
+                - examples:
+                man man
+                man mv
+                man firefox
+                man cd
+                man git
+
+info <app>  =>  info about the app, someway similar to 'man'
+                - examples:
+                info mv
+                info git
+                info firefox
+
+which <app> =>  prints out where is the binary of the app lives
+                - examples:
+                which git
+                which firefox
+
+find <file>     =>  find a file
+                -name <fileName>        => find a file by name
+                <path> -name <fileName> => find a file by name in path
+                / -name <fileName>      => find a file by name in the entire file System
+
+grep <text> <file>  =>  returns all lines in the file that contains the text
+                        - look at the manual page of 'grep'; it has a lot op options
+                        - example:
+                        grep file commands.txt > grep.txt
+                        write all the lines with 'file' word to the file 'grep.txt'
