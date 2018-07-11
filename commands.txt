@@ -2,7 +2,7 @@ pwd => present/print working directory
 
 ls  => list storage
     -a  =>  show hidden files
-    -l  =>  show details about files
+    -l  =>  show details about files (and permissions)
     > file  =>  forward the output to the file (can be used with any command)
     >> file =>  append the output to the file 
     2> file =>  forward only standard air to the file (System errors)
@@ -43,3 +43,22 @@ sudo    => super user do. To execute any command as a super user (admin/root).
         -s  =>  emulating the 'root' user.
                 To execute any command without typing 'sudo' at first.
                 You should execute 'exit' command to leave the 'root' user.
+
+chmod <permissions> <file>  =>   change mod (setting bits)
+                                - permissions for: user - group - others
+                                - example:
+                                chmod 760 file.txt
+                                user    => 7 => 111 => Read Write Execute
+                                group   => 6 => 110 => Read Write
+                                others  => 0 => 000 => Do nothing
+                                - we can do this for a group of files as well
+                                - example
+                                chmod 644 *.txt
+                                user    => 6 => 110 => Read Write
+                                group   => 4 => 100 => Read
+                                others  => 4 => 100 => Read
+                                - mod 644 is the default
+
+chown <group:user> <file>   =>  change owner
+                                - example:
+                                sudo chown abukhleif:abukhleif root.txt
